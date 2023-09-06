@@ -88,11 +88,11 @@
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
-          "size": 119002,
-          "sha512": "c901b986ad3cf59544f35f315ba5320dd43d603f30a4561eacb0b9c0913c9b60c3ada8cc33337c2dab7ef194f037126b4429c99a42bb914f7c19785cfb14e214",
-          "sha256": "a5fa8d33ca6e4d4def573dbf3dc6d6b20cf26073167b5274e3b2e17ef3b7236e",
-          "sha1": "51d0e6627070add4c3aaeff06b5f2abe1e6029dc",
-          "md5": "db6a3399cfc1d1664e642a9871f55bf0"
+          "size": 119092,
+          "sha512": "b1cb61f005f25e6bfd9e3688a732986def0e3aab3c5cf80cabf668b226c587e5b37d4ef4e0451d4f9f81f62a1659ad4c79f59b832bb253e1507752f23f483b00",
+          "sha256": "7e2718433ffc0c85a92e89765f04b3b57f5111db318fbc0ff0b4af759b041367",
+          "sha1": "2f0a6080c0f826453647ce0bf9e581fedc61b422",
+          "md5": "8715c5675ab40d17e62734804d097fa3"
         }
       ]
     },
@@ -248,11 +248,11 @@
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
-          "size": 119002,
-          "sha512": "c901b986ad3cf59544f35f315ba5320dd43d603f30a4561eacb0b9c0913c9b60c3ada8cc33337c2dab7ef194f037126b4429c99a42bb914f7c19785cfb14e214",
-          "sha256": "a5fa8d33ca6e4d4def573dbf3dc6d6b20cf26073167b5274e3b2e17ef3b7236e",
-          "sha1": "51d0e6627070add4c3aaeff06b5f2abe1e6029dc",
-          "md5": "db6a3399cfc1d1664e642a9871f55bf0"
+          "size": 119092,
+          "sha512": "b1cb61f005f25e6bfd9e3688a732986def0e3aab3c5cf80cabf668b226c587e5b37d4ef4e0451d4f9f81f62a1659ad4c79f59b832bb253e1507752f23f483b00",
+          "sha256": "7e2718433ffc0c85a92e89765f04b3b57f5111db318fbc0ff0b4af759b041367",
+          "sha1": "2f0a6080c0f826453647ce0bf9e581fedc61b422",
+          "md5": "8715c5675ab40d17e62734804d097fa3"
         }
       ]
     },
@@ -268,11 +268,11 @@
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT-sources.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT-sources.jar",
-          "size": 63790,
-          "sha512": "cd522c54a15d019696b77236fb57afa7af37b66bfac9259aef0fa05e9e70ae1dfc814387196179991d0df13da3e49f3d6ddad17047a296a726523721bd28c6e8",
-          "sha256": "fb1e428dc3c8f4246c687aea9012cecf278cc4a8614cb967802cd30ae07e8212",
-          "sha1": "3fdf8e7f8a14fc36c0c915da658ac09f474a0f35",
-          "md5": "2f890d415eced7cf2df4e90f98471dd4"
+          "size": 63358,
+          "sha512": "925ae17a60b28038cea59129e38f69b1f710e2cf05553382aeb5b8b9a94161b8047282dbc6f86f4affa8785d73d98796baca66a65d797e6a9e8e6d115972c15f",
+          "sha256": "1ecd98eb3f0fc3154246a496a5f2049abb3fc862a378e2924007ed4b72763172",
+          "sha1": "707e82c30c8c08c19244a969143f91893a20ac82",
+          "md5": "dcdec49c194350b392be4de6a386e776"
         }
       ]
     }
