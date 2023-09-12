@@ -1,6 +1,6 @@
 
 group 'org.yunghegel.gdx'
-version '0.1-SNAPSHOT'
+version "$gdxMeshPlusVersion"
 
 dependencies {
     // Define dependencies for gdx-gizmos
