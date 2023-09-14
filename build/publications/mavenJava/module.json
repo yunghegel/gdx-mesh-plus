@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.2"
+      "version": "8.3"
     }
   },
   "variants": [
@@ -88,11 +88,11 @@
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
-          "size": 119092,
-          "sha512": "b1cb61f005f25e6bfd9e3688a732986def0e3aab3c5cf80cabf668b226c587e5b37d4ef4e0451d4f9f81f62a1659ad4c79f59b832bb253e1507752f23f483b00",
-          "sha256": "7e2718433ffc0c85a92e89765f04b3b57f5111db318fbc0ff0b4af759b041367",
-          "sha1": "2f0a6080c0f826453647ce0bf9e581fedc61b422",
-          "md5": "8715c5675ab40d17e62734804d097fa3"
+          "size": 119005,
+          "sha512": "ca9de276491b74548f1c29a0b76142a9353a3fa9704f078863f29aad15882d398a6c605c2817a406e9a1c6073bec1c146ad5fccbddd0cbde90c25391a9939d11",
+          "sha256": "dcde35ed283deb50f41386073901dfa8dd6b3807307a5937645302a1d482c7ef",
+          "sha1": "26bc59c38801383a8d295a7017216821c715a61b",
+          "md5": "1e4061abf3df4cec69b99403d0320958"
         }
       ]
     },
@@ -248,11 +248,11 @@
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
-          "size": 119092,
-          "sha512": "b1cb61f005f25e6bfd9e3688a732986def0e3aab3c5cf80cabf668b226c587e5b37d4ef4e0451d4f9f81f62a1659ad4c79f59b832bb253e1507752f23f483b00",
-          "sha256": "7e2718433ffc0c85a92e89765f04b3b57f5111db318fbc0ff0b4af759b041367",
-          "sha1": "2f0a6080c0f826453647ce0bf9e581fedc61b422",
-          "md5": "8715c5675ab40d17e62734804d097fa3"
+          "size": 119005,
+          "sha512": "ca9de276491b74548f1c29a0b76142a9353a3fa9704f078863f29aad15882d398a6c605c2817a406e9a1c6073bec1c146ad5fccbddd0cbde90c25391a9939d11",
+          "sha256": "dcde35ed283deb50f41386073901dfa8dd6b3807307a5937645302a1d482c7ef",
+          "sha1": "26bc59c38801383a8d295a7017216821c715a61b",
+          "md5": "1e4061abf3df4cec69b99403d0320958"
         }
       ]
     },
@@ -268,11 +268,11 @@
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT-sources.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT-sources.jar",
-          "size": 63358,
-          "sha512": "925ae17a60b28038cea59129e38f69b1f710e2cf05553382aeb5b8b9a94161b8047282dbc6f86f4affa8785d73d98796baca66a65d797e6a9e8e6d115972c15f",
-          "sha256": "1ecd98eb3f0fc3154246a496a5f2049abb3fc862a378e2924007ed4b72763172",
-          "sha1": "707e82c30c8c08c19244a969143f91893a20ac82",
-          "md5": "dcdec49c194350b392be4de6a386e776"
+          "size": 63790,
+          "sha512": "33929b74aecaea51a8a140854477f9ce11cefed16ddaea73c2a7d15be3aeabbc6b8a3c8c502cb834d619aae02eace19c9404fbd85fc5e5eee30ae1b40f7ad63f",
+          "sha256": "b5a8493afe59cd84d38acb0d39efd1e46951f241d7d812196b55d31d3b04793d",
+          "sha1": "42354e7209b62a9adfdec3fe71b3502c10ab7bc4",
+          "md5": "02856e0826ffcab6ba170a3ebe82a073"
         }
       ]
     }
