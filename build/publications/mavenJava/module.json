@@ -19,11 +19,9 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-api",
-        "org.jetbrains.kotlin.platform.type": "jvm"
+        "org.gradle.usage": "java-api"
       },
       "dependencies": [
         {
@@ -75,24 +73,17 @@
           "version": {
             "requires": "2.1.0"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
-          "version": {
-            "requires": "1.9.0"
-          }
         }
       ],
       "files": [
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
-          "size": 119005,
-          "sha512": "ca9de276491b74548f1c29a0b76142a9353a3fa9704f078863f29aad15882d398a6c605c2817a406e9a1c6073bec1c146ad5fccbddd0cbde90c25391a9939d11",
-          "sha256": "dcde35ed283deb50f41386073901dfa8dd6b3807307a5937645302a1d482c7ef",
-          "sha1": "26bc59c38801383a8d295a7017216821c715a61b",
-          "md5": "1e4061abf3df4cec69b99403d0320958"
+          "size": 117926,
+          "sha512": "426f23816fe696ae3e77c226d6c06d5445e20b4f63e6f0a196f900bde3e1f4246d3edf65da1eec052bcc79f1333cd33278676556c96035619394cb20fffd8f65",
+          "sha256": "a04a6d084bfc44d951ac66603522684455b17001ada576681db48ec87bf8eb0e",
+          "sha1": "34fd7c298ad78830703fa7400da16ad9a494c233",
+          "md5": "cb1ec14d957e8830a693f7ac119cd987"
         }
       ]
     },
@@ -101,11 +92,9 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
-        "org.gradle.usage": "java-runtime",
-        "org.jetbrains.kotlin.platform.type": "jvm"
+        "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
         {
@@ -187,6 +176,20 @@
           }
         },
         {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
           "group": "com.badlogicgames.gdx",
           "module": "gdx",
           "version": {
@@ -235,24 +238,17 @@
           "version": {
             "requires": "2.1.0"
           }
-        },
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
-          "version": {
-            "requires": "1.9.0"
-          }
         }
       ],
       "files": [
         {
           "name": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT.jar",
-          "size": 119005,
-          "sha512": "ca9de276491b74548f1c29a0b76142a9353a3fa9704f078863f29aad15882d398a6c605c2817a406e9a1c6073bec1c146ad5fccbddd0cbde90c25391a9939d11",
-          "sha256": "dcde35ed283deb50f41386073901dfa8dd6b3807307a5937645302a1d482c7ef",
-          "sha1": "26bc59c38801383a8d295a7017216821c715a61b",
-          "md5": "1e4061abf3df4cec69b99403d0320958"
+          "size": 117926,
+          "sha512": "426f23816fe696ae3e77c226d6c06d5445e20b4f63e6f0a196f900bde3e1f4246d3edf65da1eec052bcc79f1333cd33278676556c96035619394cb20fffd8f65",
+          "sha256": "a04a6d084bfc44d951ac66603522684455b17001ada576681db48ec87bf8eb0e",
+          "sha1": "34fd7c298ad78830703fa7400da16ad9a494c233",
+          "md5": "cb1ec14d957e8830a693f7ac119cd987"
         }
       ]
     },
@@ -269,10 +265,10 @@
           "name": "gdx-mesh-plus-0.1-SNAPSHOT-sources.jar",
           "url": "gdx-mesh-plus-0.1-SNAPSHOT-sources.jar",
           "size": 63790,
-          "sha512": "33929b74aecaea51a8a140854477f9ce11cefed16ddaea73c2a7d15be3aeabbc6b8a3c8c502cb834d619aae02eace19c9404fbd85fc5e5eee30ae1b40f7ad63f",
-          "sha256": "b5a8493afe59cd84d38acb0d39efd1e46951f241d7d812196b55d31d3b04793d",
-          "sha1": "42354e7209b62a9adfdec3fe71b3502c10ab7bc4",
-          "md5": "02856e0826ffcab6ba170a3ebe82a073"
+          "sha512": "18a2fa1bc3515b62edb92af9b1595569b945ca2a43bfb58bdfc8e36dad734c2acfb20f7e9ed24ca4d25418b38a0c8d734420bc3ca30f2b8f925af320f4e59d89",
+          "sha256": "9f648ba59c398b8a74678a17d50b4e7d4ede8e19d70595e5adfa9e58f07c5171",
+          "sha1": "57bd78bdab81d6086647693f88a3304183924f1d",
+          "md5": "8fb54073a6cacc4c8c489a25da5e467b"
         }
       ]
     }

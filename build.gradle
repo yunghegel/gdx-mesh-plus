@@ -1,9 +1,8 @@
 
 group 'org.yunghegel.gdx'
-version '0.1-SNAPSHOT'
-
-group 'org.yunghegel.gdx'
 version "$gdxMeshPlusVersion"
+
+
 
 dependencies {
     // Define dependencies for gdx-gizmos
@@ -25,7 +24,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = "org.yunghegel.gdx"
             artifactId = "gdx-mesh-plus"
-            version ="0.1-SNAPSHOT"
+            version =version
             from components.java
         }
     }
