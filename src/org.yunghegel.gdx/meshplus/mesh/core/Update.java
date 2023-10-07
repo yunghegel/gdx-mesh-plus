@@ -101,7 +101,7 @@ public abstract class Update{
      * @param mesh mesh, the vertices are update.
      */
     public static void verts(HMesh mesh){
-        HVert[] list = Collect.verts((HVert[])null, mesh);
+        HVert[] list = Collect.verts(null, mesh);
 //      System.out.println("number of vertices to update: "+list.size());
         for(HVert item : list) Update.vert(item);
     }

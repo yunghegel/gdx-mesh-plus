@@ -120,7 +120,7 @@ public class HalfUVSphereCreator extends ModelCreator   {
         for (int i = 0; i < segments; i++) {
             int a = getIndex(rings / 2 - 1, i);
             int b = getIndex(rings / 2 - 1, i + 1);
-            this.b.triangle((short) a, (short) ((short) center), (short) b);
+            this.b.triangle((short) a, (short) center, (short) b);
             numFaces++;
             mesh.addFace(a, center, b);
         }

@@ -19,8 +19,7 @@ public class Face3D {
         this.indices = new int[indices.length];
         this.normal = new Vector3f();
         this.tag = "";
-        for (int i = 0; i < indices.length; i++)
-            this.indices[i] = indices[i];
+        System.arraycopy(indices, 0, this.indices, 0, indices.length);
     }
 
     public boolean sharesSameIndices(Face3D face) {
@@ -33,7 +32,7 @@ public class Face3D {
 
     public Face3D(Face3D f) {
         this(f.indices);
-        this.tag = new String(f.tag);
+        this.tag = f.tag;
     }
 
     @Override

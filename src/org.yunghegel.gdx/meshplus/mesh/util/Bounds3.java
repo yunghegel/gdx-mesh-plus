@@ -74,9 +74,7 @@ public class Bounds3 {
     public boolean intersects(Bounds3 other) {
         if (min.getX() - other.max.getX() > 0.0f || min.getY() - other.max.getY() > 0.0f || min.getZ() - other.max.getZ() > 0.0f)
             return false;
-        if (other.min.getX() - max.getX() > 0.0f || other.min.getY() - max.getY() > 0.0f || other.min.getZ() - max.getZ() > 0.0f)
-            return false;
-        return true;
+        return !(other.min.getX() - max.getX() > 0.0f) && !(other.min.getY() - max.getY() > 0.0f) && !(other.min.getZ() - max.getZ() > 0.0f);
     }
 
     public float volume() {
@@ -224,11 +222,8 @@ public class Bounds3 {
         } else if (!max.equals(other.max))
             return false;
         if (min == null) {
-            if (other.min != null)
-                return false;
-        } else if (!min.equals(other.min))
-            return false;
-        return true;
+            return other.min == null;
+        } else return min.equals(other.min);
     }
 
     @Override

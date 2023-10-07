@@ -44,7 +44,7 @@ public class CircleCreator extends ModelCreator{
 
             b.vertex(0, centerY, 0);
             for (short i = 0; i < vertices; i++) {
-                short i1 = (short) ((short) i%vertices);
+                short i1 = (short) (i %vertices);
                 short i2 = (short) ((short) (i+1)%vertices);
                 b.triangle(i1, i2, (short) vertices);
             }

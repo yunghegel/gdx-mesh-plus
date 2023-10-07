@@ -73,7 +73,7 @@ public class MeshUtils {
         int posOffset = attribute.offset / 4;
         m.set(node.globalTransform).mul(transform);
         for(int i=0 ; i<size ; i+=3){
-            int vertex = (int)(indices[i] & 0xFFFF);
+            int vertex = indices[i] & 0xFFFF;
             int vindex = vertex * stride + posOffset;
             float x = vertices[vindex];
             float y = vertices[vindex+1];

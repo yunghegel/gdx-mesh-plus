@@ -35,9 +35,7 @@ public class Matrix4f extends com.badlogic.gdx.math.Matrix4{
 
     public Matrix4f(Matrix4f m) {
         values = new float[16];
-        for (int i = 0; i < m.values.length; i++) {
-            this.values[i] = m.values[i];
-        }
+        System.arraycopy(m.values, 0, this.values, 0, m.values.length);
     }
 
     public float getValueAt(int index) {
@@ -294,8 +292,6 @@ public class Matrix4f extends com.badlogic.gdx.math.Matrix4{
         if (getClass() != obj.getClass())
             return false;
         Matrix4f other = (Matrix4f) obj;
-        if (!Arrays.equals(values, other.values))
-            return false;
-        return true;
+        return Arrays.equals(values, other.values);
     }
 }

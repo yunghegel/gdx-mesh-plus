@@ -249,19 +249,18 @@ public class MeshInfo {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("MeshInfo: ").append(mesh).append("\n");
-        sb.append("Vertices: ").append(numVertices).append("\n");
-        sb.append("Indices: ").append(numIndices).append("\n");
-        sb.append("Vertex Size: ").append(vertexSize).append("\n");
-        sb.append("Position Offset: ").append(posOffset).append("\n");
-        sb.append("Normal Offset: ").append(norOffset).append("\n");
-        sb.append("Color Offset: ").append(colOffset).append("\n");
-        sb.append("TexCoord Offset: ").append(texOffset).append("\n");
-        sb.append("Has Normals: ").append(hasNormals).append("\n");
-        sb.append("Has Colors: ").append(hasColors).append("\n");
-        sb.append("Has TexCoords: ").append(hasTexCoords).append("\n");
-        return sb.toString();
+        String sb = "MeshInfo: " + mesh + "\n" +
+                "Vertices: " + numVertices + "\n" +
+                "Indices: " + numIndices + "\n" +
+                "Vertex Size: " + vertexSize + "\n" +
+                "Position Offset: " + posOffset + "\n" +
+                "Normal Offset: " + norOffset + "\n" +
+                "Ansi Offset: " + colOffset + "\n" +
+                "TexCoord Offset: " + texOffset + "\n" +
+                "Has Normals: " + hasNormals + "\n" +
+                "Has Colors: " + hasColors + "\n" +
+                "Has TexCoords: " + hasTexCoords + "\n";
+        return sb;
     }
 }
 

@@ -228,8 +228,8 @@ public class IFSBuilder {
         private final HVert a, b;
         private final int hashcode;
 
-        public static final EdgeVerts AB(final HEdge e){  return new EdgeVerts( e.orig, e.next.orig ); }
-        public static final EdgeVerts BA(final HEdge e){  return new EdgeVerts( e.next.orig, e.orig ); }
+        public static EdgeVerts AB(final HEdge e){  return new EdgeVerts( e.orig, e.next.orig ); }
+        public static EdgeVerts BA(final HEdge e){  return new EdgeVerts( e.next.orig, e.orig ); }
 
         private EdgeVerts(final HVert a, final HVert b) {
             this.a = a;
@@ -238,13 +238,13 @@ public class IFSBuilder {
         }
 
         @Override
-        public final int hashCode() { return hashcode; }
+        public int hashCode() { return hashcode; }
 
         @Override
-        public final boolean equals(Object o) {
+        public boolean equals(Object o) {
             return equals( (EdgeVerts)o );
         }
-        public final boolean equals(final EdgeVerts e){
+        public boolean equals(final EdgeVerts e){
             return  (a.equals(e.a) && b.equals(e.b) );
         }
     }

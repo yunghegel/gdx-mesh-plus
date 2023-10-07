@@ -11,7 +11,7 @@ public class Mathf {
     public static final float GOLDEN_RATIO = (1f + Mathf.sqrt(5f)) / 2f;
 
     public static float abs(float a) {
-        return (float) Math.abs(a);
+        return Math.abs(a);
     }
 
     public static float clamp(float value, float min, float max) {

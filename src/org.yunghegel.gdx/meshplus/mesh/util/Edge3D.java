@@ -30,9 +30,7 @@ public class Edge3D {
         Edge3D other = (Edge3D) obj;
         if (fromIndex != other.fromIndex)
             return false;
-        if (toIndex != other.toIndex)
-            return false;
-        return true;
+        return toIndex == other.toIndex;
     }
 
     public Edge3D createPair() {

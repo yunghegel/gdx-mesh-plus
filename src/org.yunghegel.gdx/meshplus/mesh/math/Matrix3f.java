@@ -210,9 +210,7 @@ public class Matrix3f extends Matrix3 {
         if (getClass() != obj.getClass())
             return false;
         Matrix3f other = (Matrix3f) obj;
-        if (!Arrays.equals(values, other.values))
-            return false;
-        return true;
+        return Arrays.equals(values, other.values);
     }
 
 }
